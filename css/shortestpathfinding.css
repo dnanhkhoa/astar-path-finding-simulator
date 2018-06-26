@@ -1,0 +1,65 @@
+node {
+	size: 30px, 30px;
+    fill-color: #C8E6C9;
+    stroke-mode: plain;
+    stroke-width: 1px;
+    stroke-color: #1B5E20;
+    text-size: 10px;
+}
+
+node.focus {
+	fill-color: #82B1FF;
+	stroke-width: 2px;
+    stroke-color: #2962FF;
+    text-style: bold;
+}
+
+node.goal {
+	fill-color: #B388FF;
+	stroke-width: 2px;
+    stroke-color: #6200EA;
+    text-style: bold;
+}
+
+node.back {
+    text-color: #FFFFFF;
+    stroke-color: #F50057;
+    fill-color: #F50057;
+    text-size: 15px;
+}
+
+node.highlight {
+	text-color: #FFFFFF;
+    stroke-color: #FF9800;
+    fill-color: #FFB74D;
+}
+
+node.visited {
+    text-color: #FFFFFF;
+    stroke-color: #3E2723;
+    fill-color: #795548;
+}
+
+edge {
+    text-alignment: along;
+    text-offset: 0, 6px;
+    text-size: 10px;
+    size: 1px;
+    fill-color: #1B5E20;
+}
+
+edge.highlight {
+    fill-color: #FF9800;
+}
+
+edge.back {
+    fill-color: #F50057;
+}
+
+sprite {
+    fill-color: rgba(0,0,0,0);
+    text-color: #C62828;
+    text-style: bold;
+    text-size: 12px;
+    text-offset: -22px, 20px;
+}
